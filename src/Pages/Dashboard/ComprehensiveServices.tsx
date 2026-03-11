@@ -1,6 +1,14 @@
 import React from "react";
-import { Box, Container, Typography } from "@mui/material";
+import {
+  Box,
+  Container,
+  Typography,
+  useTheme,
+  useMediaQuery,
+} from "@mui/material";
+
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
 const steps = [
   { num: "01", title: "Strategy", desc: "Market analysis & positioning" },
@@ -12,6 +20,9 @@ const steps = [
 ];
 
 const ComprehensiveServices = () => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+
   return (
     <Box sx={{ background: "#050505", py: 12 }}>
       <Container maxWidth="xl">
@@ -30,7 +41,7 @@ const ComprehensiveServices = () => {
           <Typography
             sx={{
               fontFamily: "Playfair Display",
-              fontSize: 42,
+              fontSize: { xs: 32, md: 42 },
               color: "#fff",
               fontWeight: 600,
               mb: 1,
@@ -50,13 +61,13 @@ const ComprehensiveServices = () => {
           </Typography>
         </Box>
 
-        {/* FLOW ROW */}
+        {/* FLOW */}
         <Box
           sx={{
             display: "flex",
+            flexDirection: isMobile ? "column" : "row",
             alignItems: "center",
             justifyContent: "center",
-            flexWrap: "nowrap",
             gap: 2,
           }}
         >
@@ -66,7 +77,8 @@ const ComprehensiveServices = () => {
               {/* CARD */}
               <Box
                 sx={{
-                  width: 120,
+                  width: isMobile ? "100%" : 120,
+                  maxWidth: isMobile ? 320 : "none",
                   height: 140,
                   borderRadius: "12px",
                   p: 2,
@@ -110,15 +122,26 @@ const ComprehensiveServices = () => {
                 </Typography>
               </Box>
 
-              {/* ARROW */}
+              {/* ARROWS */}
               {index !== steps.length - 1 && (
-                <ArrowForwardIcon
-                  sx={{
-                    color: "#c6a15b",
-                    fontSize: 26,
-                  }}
-                />
+                isMobile ? (
+                  <ArrowDownwardIcon
+                    sx={{
+                      color: "#c6a15b",
+                      fontSize: 28,
+                      my: 1,
+                    }}
+                  />
+                ) : (
+                  <ArrowForwardIcon
+                    sx={{
+                      color: "#c6a15b",
+                      fontSize: 26,
+                    }}
+                  />
+                )
               )}
+
             </React.Fragment>
           ))}
         </Box>

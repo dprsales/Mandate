@@ -41,7 +41,7 @@ const DeveloperChallenge = () => {
                   backdropFilter: "blur(8px)",
                   transition: "all 0.35s ease",
 
-                height: "300px",
+                height: {xs:"auto",md:"300px"},
               }}
             >
               <Typography
@@ -105,7 +105,7 @@ const DeveloperChallenge = () => {
                   transition: "all 0.35s ease",
 
                 p: 5,
-                height: "300px",
+                height: {xs:"auto",md:"300px"},
                  borderRadius: "12px",
               }}
             >

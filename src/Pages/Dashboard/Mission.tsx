@@ -62,9 +62,8 @@ const Mission = () => {
                 mb: 1,
               }}
             >
-              To build structured sales ecosystems for real estate developers,
-              enabling independent, high-performance sales organizations that
-              drive sustainable growth and market leadership.
+              To build <b>high-performance sales ecosystems</b> for real estate developers that go beyond marketing ,
+creating<b> structured, scalable, and conversion-driven sales environments.</b>
             </Typography>
 
             <Typography
@@ -76,10 +75,7 @@ const Mission = () => {
                 lineHeight: 1.8,
               }}
             >
-              We believe that strategic sales architecture, combined with
-              technology and human excellence, creates the foundation for
-              exceptional real estate projects to thrive in competitive
-              markets.
+              
             </Typography>
           </Grid>
 
@@ -118,24 +114,11 @@ const Mission = () => {
                 mb: 1,
               }}
             >
-              To transform real estate sales through strategic innovation,
-              cutting-edge technology, and visionary leadership mentoring that
-              elevates the entire industry.
+              To redefine how luxury real estate is sold,
+through better systems, stronger positioning, and sharper sales execution.
             </Typography>
 
-            <Typography
-            variant="body2"
-              sx={{
-                
-                fontSize: 16,
-                color: "#9ca3af",
-                lineHeight: 1.8,
-              }}
-            >
-              We envision a future where real estate developers have access to
-              world-class sales expertise, enabling them to build projects that
-              become landmarks in their markets.
-            </Typography>
+           
           </Grid>
 
         </Grid>

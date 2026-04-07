@@ -54,7 +54,7 @@ const HeroSection = () => {
                         mb: 3,
                     }}
                 >
-                    Strategic Sales &
+                   Strategic Sales 
                 </Typography>
                 <Typography
                     variant="h1"
@@ -65,7 +65,7 @@ const HeroSection = () => {
                         mb: 3,
                     }}
                 >
-                    Marketing <span style={{ color: '#c8a45d' }}>Mandates</span>
+                     <span style={{ color: '#c8a45d' }}>Mandate</span>
                 </Typography>
 
                 {/* Subtitle */}
@@ -74,11 +74,21 @@ const HeroSection = () => {
 
                         fontSize: "18px",
                         opacity: 0.9,
+                        mb: 2,
+                    }}
+                >
+                    Building High-Performance Sales Systems for Luxury Real Estate Projects
+                </Typography>
+
+                <Typography
+                    sx={{
+
+                        fontSize: "18px",
+                        opacity: 0.9,
                         mb: 4,
                     }}
                 >
-                    Helping developers build powerful sales ecosystems and liquidate
-                    inventory faster through strategic positioning and market leadership.
+                    Helping developers <b style={{ color: '#c8a45d' }}>liquidate inventory faster, improve deal quality, and build predictable sales ecosystems</b>  through structured execution and strategic control. 
                 </Typography>
 
                 {/* Buttons */}

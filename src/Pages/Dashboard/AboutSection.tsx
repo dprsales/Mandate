@@ -63,7 +63,7 @@ const gold = "#c6a15b";
                   fontFamily: "Playfair Display",
                 }}
               >
-                RW
+                RW Realty
               </Box>
 
               {/* Name */}
@@ -97,15 +97,40 @@ const gold = "#c6a15b";
             {/* HEADING */}
             <Typography
               sx={{
+                fontFamily: "Inter",
+                color: "#9fa6b2",
+                fontSize: 16,
+                lineHeight: 1.4,
+                mb: 2,
+                maxWidth: 520,
+              }}
+            >
+             RW Realty
+            </Typography>
+            <Typography
+              sx={{
                 fontFamily: "Playfair Display",
-                fontSize: { xs: 36, md: 48 },
+                fontSize: { xs: 36, md: 42 },
                 fontWeight: 600,
                 lineHeight: 1.2,
                 color: "#fff",
-                mb: 3,
+                mb: 1,
               }}
             >
-              Real Estate Mentor & <br /> Brand Strategist
+              Luxury Real Estate Sales & <br />  Strategic Advisory
+
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: "Inter",
+                color: "#9fa6b2",
+                fontSize: 16,
+                lineHeight: 1.7,
+                mb: 3,
+                maxWidth: 520,
+              }}
+            >
+              Led by Rajiv Williams
             </Typography>
 
             {/* PARAGRAPH */}
@@ -119,9 +144,7 @@ const gold = "#c6a15b";
                 maxWidth: 520,
               }}
             >
-              With over 10 years of experience in real estate development and
-              sales strategy, Rajiv Williams has mentored dozens of developers
-              and entrepreneurs in building scalable sales ecosystems.
+              With deep expertise in luxury real estate sales, buyer psychology, and project positioning, RW Realty works closely with developers to build, manage, and optimize end-to-end sales systems.
             </Typography>
 
             {/* FEATURE LIST */}
@@ -157,7 +180,7 @@ const gold = "#c6a15b";
                       mt: 1,
                     }}
                   >
-                    Building independent, high-performance sales organizations
+                    Designing structured sales systems that drive consistent closures
                   </Typography>
                 </Box>
               </Box>
@@ -181,7 +204,7 @@ const gold = "#c6a15b";
                       fontWeight: 600,
                     }}
                   >
-                    Cost Optimization & Profit Maximization
+                    Inventory Movement & Revenue Acceleration
                   </Typography>
 
                   <Typography
@@ -192,7 +215,7 @@ const gold = "#c6a15b";
                       mt: 1,
                     }}
                   >
-                    Strategic approaches to improve developer margins and ROI
+                    Improving conversion rates and reducing holding cycles
                   </Typography>
                 </Box>
               </Box>
@@ -216,7 +239,7 @@ const gold = "#c6a15b";
                       fontWeight: 600,
                     }}
                   >
-                    Leadership Development
+                   Sales Execution & Deal Control
                   </Typography>
 
                   <Typography
@@ -227,7 +250,7 @@ const gold = "#c6a15b";
                       mt: 1,
                     }}
                   >
-                    Mentoring teams to achieve excellence in sales execution
+                   Managing real conversations, site visits, and closures
                   </Typography>
                 </Box>
               </Box>

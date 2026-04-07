@@ -6,33 +6,33 @@ import { hitechcity } from "../../assets";
 const features = [
   {
     num: "01",
-    title: "Faster Inventory Liquidation",
-    desc: "Strategic sales mechanisms designed to accelerate project sales velocity and reduce carrying costs",
+    title: "Faster Inventory Movement",
+    desc: "Structured systems that improve sales velocity",
   },
   {
     num: "02",
-    title: "Strong Channel Networks",
-    desc: "Access to our extensive network of high-performing channel partners and sales professionals",
+    title: "Better Conversion Rates",
+    desc: "Improved handling of high-intent buyers",
   },
   {
     num: "03",
-    title: "Data-Driven Marketing",
-    desc: "Marketing campaigns backed by market research, buyer insights, and performance analytics",
+    title: "Stronger Pricing Control",
+    desc: "Reduced dependency on discounting",
   },
   {
     num: "04",
-    title: "CRM-Enabled Tracking",
-    desc: "Real-time visibility into sales pipeline, conversion metrics, and team performance",
+    title: "Real Sales Visibility",
+    desc: "Clear insight into pipeline and deal stages",
   },
   {
     num: "05",
-    title: "Leadership Mentoring",
-    desc: "Direct access to strategic guidance for your sales teams and project leadership",
+    title: "Strategic Deal Support",
+    desc: "Involvement in high-value conversations",
   },
   {
     num: "06",
-    title: "Proven Track Record",
-    desc: "Years of successful engagements with premium real estate developers across India",
+    title: "Market Understanding",
+    desc: "Deep expertise in luxury real estate dynamics",
   },
 ];
 
